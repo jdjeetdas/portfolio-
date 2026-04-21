@@ -289,6 +289,10 @@ nav {
   color: var(--muted);
   flex-shrink: 0;
 }
+.marquee-link {
+  text-decoration: none;
+  color: inherit;
+}
 .marquee-dot { width: 4px; height: 4px; border-radius: 50%; background: var(--accent); }
 @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 
@@ -590,6 +594,9 @@ footer {
 <!-- ═══════ MARQUEE ═══════ -->
 <div class="marquee-section">
   <div class="marquee-track" id="marquee">
+    <a href="https://vrkure.com/" class="marquee-link">
+      <span class="marquee-item"><span class="marquee-dot"></span>VRKure</span>
+    </a>
     <span class="marquee-item" href="https://vrkure.com/"><span class="marquee-dot"></span>VRKure</span>
     <span class="marquee-item" href="https://vrkure.com/"><span class="marquee-dot"></span>MamaLift Plus</span>
     <span class="marquee-item" href="https://vrkure.com/"><span class="marquee-dot"></span>USISPF</span>
